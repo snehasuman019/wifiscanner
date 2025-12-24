@@ -1,6 +1,9 @@
 import pywifi
 import time
 
+print("Scanner file started...")
+
+
 def scan_wifi():
     wifi = pywifi.PyWiFi()
     iface = wifi.interfaces()[0]
